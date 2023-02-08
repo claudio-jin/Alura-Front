@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+
+/* Unidades de medida
+2 tipos de medidas ->
+    absolutas
+    px->
+
+    relativas
+    sempre é utilizada uma escala relativa do pixel para o rem
+    16px == 1rem
+    rem -> relativo ao elemento raiz, acompanha a unidade de medida
+    do navegador
+    vw -> 
+
+
+*/
+
 /* variaveis css */
 :root {
     --cor-primaria: #000000;
@@ -28,7 +44,7 @@
 .cabecalho__menu__link{
     text-decoration: none;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
 }
@@ -61,7 +77,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte--primaria);
 }
 
@@ -70,7 +86,7 @@ body {
 }
 
 .apresentacao__conteudo__paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte--secundaria);
 }
 
@@ -85,7 +101,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte--primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
@@ -97,7 +113,7 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -115,6 +131,6 @@ body {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte--secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
